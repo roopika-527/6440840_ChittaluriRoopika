@@ -1,0 +1,23 @@
+<style>
+  form {
+    background: #f9f9f9;
+    padding: 20px;
+    width: 300px;
+  }
+</style>
+
+<form onsubmit="document.getElementById('confirmMsg').value='Registration Successful!'; return false;">
+  <label>Name: <input type="text" name="name" placeholder="Your Name" required autofocus></label><br><br>
+  <label>Email: <input type="email" name="email" placeholder="you@example.com" required></label><br><br>
+  <label>Date: <input type="date" name="eventDate" required></label><br><br>
+  <label>Event Type:
+    <select name="eventType" required>
+      <option value="music">Music</option>
+      <option value="art">Art</option>
+      <option value="tech">Tech</option>
+    </select>
+  </label><br><br>
+  <label>Message:<br><textarea placeholder="Your message here"></textarea></label><br><br>
+  <button type="submit">Register</button>
+  <output id="confirmMsg"></output>
+</form>

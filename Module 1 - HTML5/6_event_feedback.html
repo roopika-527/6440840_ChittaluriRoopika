@@ -1,0 +1,40 @@
+<script>
+  function validatePhone(el) {
+    if (!/^\d{10}$/.test(el.value)) {
+      alert("Enter a valid 10-digit phone number.");
+    }
+  }
+
+  function showFee(el) {
+    const fees = { music: 10, art: 15, tech: 20 };
+    document.getElementById('feeDisplay').textContent = `Fee: $${fees[el.value]}`;
+  }
+
+  function enlargeImage(img) {
+    img.style.width = "300px";
+  }
+
+  function countChars(el) {
+    document.getElementById('charCount').textContent = `Characters: ${el.value.length}`;
+  }
+
+  function confirmSubmit() {
+    alert("Thank you for your feedback!");
+  }
+</script>
+
+<form>
+  <label>Phone: <input type="text" onblur="validatePhone(this)"></label><br><br>
+  <label>Event Type:
+    <select onchange="showFee(this)">
+      <option value="music">Music</option>
+      <option value="art">Art</option>
+      <option value="tech">Tech</option>
+    </select>
+  </label>
+  <div id="feeDisplay"></div><br>
+  <textarea onkeyup="countChars(this)" placeholder="Your feedback here..."></textarea>
+  <div id="charCount"></div><br>
+  <button type="button" onclick="confirmSubmit()">Submit Feedback</button>
+</form>
+<img src="event1.jpg" ondblclick="enlargeImage(this)" style="width:150px;">
