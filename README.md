@@ -43,7 +43,7 @@ Key Folder:
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/roopika-527/6440840_ChittaluriRoopika
+    https://github.com/roopika-527/6440840_ChittaluriRoopika
 Open relevant folders in your preferred IDE or code editor.
 
 Use any local server (e.g., Live Server in VS Code) for HTML/CSS/JS files.
