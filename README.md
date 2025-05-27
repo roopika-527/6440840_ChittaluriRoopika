@@ -41,7 +41,7 @@ Key Folder:
 📦 How to Use
 
 1. Clone the repo:
-   git clone https://https://github.com/roopika-527/6440840_ChittaluriRoopika
+   git clone https://github.com/roopika-527/6440840_ChittaluriRoopika
 Open relevant folders in your preferred IDE or code editor.
 
 Use any local server (e.g., Live Server in VS Code) for HTML/CSS/JS files.
