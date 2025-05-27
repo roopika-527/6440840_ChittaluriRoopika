@@ -1,0 +1,81 @@
+/* -----------------------------
+   Base Styles
+----------------------------- */
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  background-color: #fafafa;
+  color: #222;
+  padding: 30px;
+}
+
+
+/* -----------------------------
+   Header Typography
+----------------------------- */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #003366;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 300;
+  color: #555;
+}
+
+
+/* -----------------------------
+   Intro Section
+----------------------------- */
+.intro h2 {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 15px;
+  color: #004d99;
+}
+
+.description {
+  font-size: 16px;
+  text-align: justify;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  line-height: 1.8;
+  color: #333;
+}
+
+
+/* -----------------------------
+   Highlight Section
+----------------------------- */
+.highlight {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #e0f2f1;
+  border-left: 6px solid #00796b;
+}
+
+.highlight h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #00796b;
+  margin-bottom: 10px;
+}
+
+.emphasis {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  color: #004d40;
+}

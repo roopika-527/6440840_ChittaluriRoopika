@@ -1,0 +1,1 @@
+Explain: css/ contains stylesheets, js/ contains scripts, icons/ contains SVG icon files.

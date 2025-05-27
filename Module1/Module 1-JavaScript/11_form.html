@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Form</title></head>
+<body>
+<form id="regForm">
+  <input name="name" required>
+  <input name="email" required>
+  <select name="event"><option>Music</option></select>
+  <button type="submit">Submit</button>
+</form>
+<div id="errors"></div>
+<script>
+document.getElementById("regForm").onsubmit = function(e) {
+  e.preventDefault();
+  const form = e.target;
+  if (!form.name.value || !form.email.value) {
+    document.getElementById("errors").textContent = "All fields required.";
+  } else {
+    alert("Form submitted");
+  }
+};
+</script>
+</body></html>
