@@ -58,6 +58,7 @@ Use any SQL interface (like MySQL Workbench or SQLite) to test SQL scripts.
 
 🧑‍💻 Author
 Chittaluri Roopika
+
 B.Tech in Computer Science and Engineering
 Passionate about full-stack development, Java, and building real-world projects.
 
