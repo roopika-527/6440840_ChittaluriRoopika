@@ -41,7 +41,6 @@ Key Folder:
 📦 How to Use
 
 1. Clone the repo:
-   ```bash
    git clone https://https://github.com/roopika-527/6440840_ChittaluriRoopika
 Open relevant folders in your preferred IDE or code editor.
 
