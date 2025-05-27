@@ -1,5 +1,7 @@
-#Cognizant-Digital-Nurture-4.0-JAVA-FSE-Upskilling-learning-program
+# Cognizant-Digital-Nurture-4.0-JAVA-FSE-Upskilling-learning-program
+
 This repository contains a collection of structured learning modules focused on front-end web development and Java backend programming. The exercises are categorized into three modules:
+
 📁 MODULE 1: HTML5, CSS3, Bootstrap 5, JavaScript
 
 This module covers comprehensive front-end technologies with practice files for:
@@ -40,6 +42,7 @@ Key Folder:
 📦 How to Use
 
 1. Clone the repo:
+   ```bash
    git clone https://github.com/roopika-527/6440840_ChittaluriRoopika
 Open relevant folders in your preferred IDE or code editor.
 
